@@ -4,7 +4,7 @@ package tensorflow.serving;
 
 import "tensorflow_serving/apis/status.proto";
 import "tensorflow_serving/config/model_server_config.proto";
-option go_package = "tf-serving/protos/tensorflow_serving/apis";
+option go_package = "github.com/richdeliveroo/tf-serving/tensorflow_serving/apis";
 
 option cc_enable_arenas = true;
 

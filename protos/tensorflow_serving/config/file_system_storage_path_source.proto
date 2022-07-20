@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.serving;
-option go_package = "tf-serving/protos/tensorflow_serving/config";
+option go_package = "github.com/richdeliveroo/tf-serving/tensorflow_serving/config";
 
 // Config proto for FileSystemStoragePathSource.
 message FileSystemStoragePathSourceConfig {

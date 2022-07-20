@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package tensorflow.serving;
 option cc_enable_arenas = true;
-option go_package = "tf-serving/protos/tensorflow_serving/config";
+option go_package = "github.com/richdeliveroo/tf-serving/tensorflow_serving/config";
 
 // Configuration for a secure gRPC channel
 message SSLConfig {

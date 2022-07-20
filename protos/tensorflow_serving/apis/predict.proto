@@ -5,7 +5,7 @@ option cc_enable_arenas = true;
 
 import "tensorflow/core/framework/tensor.proto";
 import "tensorflow_serving/apis/model.proto";
-option go_package = "tf-serving/protos/tensorflow_serving/apis";
+option go_package = "github.com/richdeliveroo/tf-serving/tensorflow_serving/apis";
 
 // PredictRequest specifies which TensorFlow model to run, as well as
 // how inputs are mapped to tensors and how outputs are filtered before

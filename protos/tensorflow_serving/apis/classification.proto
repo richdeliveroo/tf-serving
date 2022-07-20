@@ -6,7 +6,7 @@ import "tensorflow_serving/apis/input.proto";
 import "tensorflow_serving/apis/model.proto";
 
 package tensorflow.serving;
-option go_package = "tf-serving/protos/tensorflow_serving/apis";
+option go_package = "tensorflow_serving/apis";
 
 // A single class.
 message Class {

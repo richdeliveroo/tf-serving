@@ -8,7 +8,7 @@ import "tensorflow_serving/apis/logging.proto";
 import "tensorflow_serving/apis/predict.proto";
 import "tensorflow_serving/apis/regression.proto";
 import "tensorflow_serving/apis/session_service.proto";
-option go_package = "tf-serving/protos/tensorflow_serving/apis";
+option go_package = "github.com/richdeliveroo/tf-serving/tensorflow_serving/apis";
 
 option cc_enable_arenas = true;
 

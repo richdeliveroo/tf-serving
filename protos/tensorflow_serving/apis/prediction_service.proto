@@ -3,12 +3,13 @@ syntax = "proto3";
 package tensorflow.serving;
 option cc_enable_arenas = true;
 
-import "tensorflow_serving/apis/classification.proto";
+import "apis/classification.proto";
+import "classification.proto";
 import "tensorflow_serving/apis/get_model_metadata.proto";
 import "tensorflow_serving/apis/inference.proto";
 import "tensorflow_serving/apis/predict.proto";
 import "tensorflow_serving/apis/regression.proto";
-option go_package = "tf-serving/protos/tensorflow_serving/apis";
+option go_package = "github.com/richdeliveroo/tf-serving/tensorflow_serving/apis";
 
 // open source marker; do not remove
 // PredictionService provides access to machine-learned models loaded by
